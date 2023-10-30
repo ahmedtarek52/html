@@ -1,0 +1,209 @@
+/* start header */
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+#logo{
+    width:25%;
+    margin-right: 300px;
+    padding-left: 15%;
+}
+
+.links{
+    padding-left: 20%;
+    display: flex;
+}
+.links-list{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul  li a{
+    color: white !important;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin: 10%;
+}
+
+.contact_home{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 6%;
+}
+
+.contact_home h1{
+    line-height: 1.38em;
+    font-size: 56px;
+    font-weight: 400;
+    color: white;
+}
+.flex{
+    margin-top: -4%;
+    display: flex;
+    justify-content: center;
+}
+.flex .cont0{
+    color: white;
+    margin-left: -5%;
+    justify-content: space-around;
+}
+.nav-1{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    background-color: #75704d;
+    top: 0;
+}
+.nav-1 ul{
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+
+}
+.nav-1 ul li{
+    color: rgb(58, 22, 22);
+    margin-left: -50%;
+}
+
+/* end header */
+/*start content */
+.contact-1 {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-1 .para-1 {
+    margin-top: 20px;
+}
+.form input, textarea {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 15px;
+}
+.cont-1, .cell {
+    width:35%;
+}
+.cont-1{
+    margin: 16px 0px;
+}
+
+.fa-solid{
+    font-size: 20px;
+    color: #8e7754;
+}
+.form {
+    width: 90%;
+}
+.shift {
+    margin-top: 2%;
+    width: 81.5%;
+}
+.cont-1 p {
+    margin-left: 20px;
+}
+
+p {
+    line-height: 1.86em;
+}
+h1, p, h2, h3 {
+    font-family: "Alegreya";
+}
+.form h3, .shift, .send-btn {
+    margin-left: 0;
+}
+.send-btn {
+    background-color: #8e7754;
+   color: #fff;
+   padding: 12px;
+   border-radius: 10px;
+   outline: none;
+   font-weight: 600;
+   display: block;
+   border: none;
+}
+.form-cont .cell{
+    padding-left: 35px;
+}
+   
+
+.info-1 ul {
+    margin-top: 50px;
+}
+/* end content */
+/* Start Footer */
+
+.end{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* top: 300px; */
+    background-color:#403d38;
+    display: flex;
+    padding-top: 30px;
+    color: white;
+  }
+  .col1{
+    position: relative;
+    left: 90px;
+    width: 24%;
+    display: inline-block;
+    color: var(--section-background);
+  }
+  
+  hr{
+    border: none;
+    height: .1px;
+    width: 75%;
+    background-color:#686868;
+    margin-top: 15px;
+    margin-left: 0%;
+  }
+  a{
+    color: #8e9596;
+  }
+  
+  
+  .fin{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #353330;
+    display: flex;
+  }
+  .fin p{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    color: var(--section-background);
+  }
+  .logoImage{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .social-icons{
+    color: var(--section-background);
+    font-size: 18px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translateX(-50%,-50%);
+  }
+  .footer .social-icons i {
+  margin: 0 12px;  
+  }
+  
+  /* end Footer */
+  iframe{
+    width: 100%;
+  }
